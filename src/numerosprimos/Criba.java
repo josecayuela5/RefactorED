@@ -49,6 +49,7 @@ public class Criba {
 
         for (int i = 0; i < Math.sqrt(esPrimo.length); i++) {
             if (esPrimo[i]) {
+
                 for (int j = 2 * i; j < esPrimo.length; j += i) {
                     esPrimo[j] = false;
                 }
