@@ -11,7 +11,7 @@ public class Criba {
             cribarPrimos();
             int[] vectorPrimos = rellenarPrimos();
 
-            return vectorPrimos=rellenarPrimos();
+            return vectorPrimos;
         } else {
             int[] emptyArray=new int[0];
 
